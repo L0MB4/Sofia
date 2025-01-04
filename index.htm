@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="style.css">
+    <title>Viva Gesù</title>
+</head>
+<body>
+    <div class="contenitore">
+        <button type="submit" id="bottone" onclick="attivaQuadro()">CLICCA QUI 😇</button>
+        <div id="notte">NOTTE PAZZY</div>
+    </div>
+
+    <script>
+        function attivaQuadro(){
+            document.getElementById('notte').style.display= 'block';
+            document.getElementById('bottone').style.display='none';
+        }
+        
+    </script>
+</body>
+</html>
