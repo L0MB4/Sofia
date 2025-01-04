@@ -67,3 +67,42 @@ body{
     }
   }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 10pt;
+    }
+
+    .contenitore {
+        width: 90%;
+        margin-top: 20rem; /* Ridotto per adattarsi meglio al display mobile */
+    }
+
+    #bottone {
+        padding: 0.8rem;
+        font-size: 10pt;
+    }
+
+    #notte {
+        font-size: 30pt; /* Ridotto per essere leggibile sui dispositivi mobili */
+        margin-top: -2rem;
+    }
+}
+
+/* Media Query per schermi medi (tablet) */
+@media screen and (max-width: 768px) {
+    .contenitore {
+        width: 85%;
+        margin-top: 25rem; /* Aggiusta la distanza in base alla dimensione dello schermo */
+    }
+
+    #bottone {
+        padding: 1rem;
+        font-size: 12pt;
+    }
+
+    #notte {
+        font-size: 36pt;
+        margin-top: -2.5rem;
+    }
+}
+
